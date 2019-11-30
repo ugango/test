@@ -1,0 +1,52 @@
+.animate{
+    background: yellow;
+    border: 1px solid black;
+    height: 50px;
+    width: 100px;
+    margin: 5px;
+    position: relative;
+}
+
+.big-box{
+    height: 400px;
+    width: 350px;
+    border: 10pt;
+    border-color: black;
+    margin: 5px;
+}
+
+div.big-box{
+    border: 3px solid black;
+    
+}
+
+.box{
+    background: blue;
+    height: 100px;
+    width: 100px;
+    border-top: black 10px;
+    margin: 5px;
+}
+
+.gray-box{
+    border: 1px solid black;
+    height: 60px;
+    padding: 5px;
+    background: gray;
+}
+
+.yellow-box{
+    height: 50px;
+    width: 150px;
+    border: 1px solid black;
+    float: left;
+    margin: 5px;
+    background: yellow;
+}
+
+p{
+    margin: 0;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}

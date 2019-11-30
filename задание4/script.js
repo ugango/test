@@ -65,6 +65,21 @@ let appData = {
             appData.optionalExpenses[i] = prompt('Статья необязательных расходов?', 0);   
         }
     },
+    chooseIncome: function () {
+        let items;
+        do {
+            items = prompt('Что принесет дополнительный доход? (Перечислете через запятую)', '');    
+        } while (!isNaN(items) || items == '' || items == null);
+        appData.income = items.split(', ');
+        // appData.income.push(prompt('Может что то еще?'));
+        appData.income.sort();
+        appData.income.forEach(function (items) {
+            console.log("Способы доп. заработка: " + items);
+        });
+    },
 };
 
 
+for (const key in appData) {
+    console.log(appData);
+}
